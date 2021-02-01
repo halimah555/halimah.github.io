@@ -1,0 +1,72 @@
+body, h1 {
+	font-family: "releway", sans-serif;
+}
+input[type=text]{
+	width: 50%;
+	padding: 5px 20px;
+	margin: 8px 0;
+	display: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 10%;
+	background-color: blue;
+	color: white;
+	padding: 5px 5px;
+	margin: 3px 0;
+	border: none;
+	cursor: pointer;
+
+}
+
+input[type=reset]{
+	width: 10%;
+	background-color: blue;
+	color: white;
+	padding: 5px 5px;
+	margin: 3px 0;
+	border: none;
+	cursor: pointer;
+}
+button[type=delete]{
+	width: 35%;
+	background-color: red;
+	color: white;
+	padding: 5px 5px;
+	margin: 3px 0;
+	border: none;
+	cursor: pointer;
+
+}
+button[type=edit]{
+	width: 30%;
+	background-color: green;
+	color: white;
+	padding: 5px 5px;
+	margin: 3px 0;
+	border: none;
+	cursor: pointer;
+
+}
+button[type=tembah]{
+	width: 30%;
+	background-color: green;
+	color: white;
+	padding: 5px 5px;
+	margin: 3px 0;
+	border: none;
+	cursor: pointer;
+}
+.action-btn{
+	width: 30%;
+	background-color: green;
+	color: white;
+	padding: 5px 5px;
+	margin: 3px 0;
+	border: none;
+	cursor: pointer;
+}
+
+
+
