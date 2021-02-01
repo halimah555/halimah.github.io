@@ -52,12 +52,7 @@ include 'koneksi.php';
     <?php
     $sql = "SELECT * FROM tb_mahasiswa ORDER BY id";
     $no  = 1;
-    $cari=$_POST['cari'];
-                $query = mysqli_query($sql,"SELECT * FROM tb_mahasiswa WHERE nama LIKE '$cari%'");{
-                }else {
-                $query= mysqli_query($sql,"SELECT * FROM tb_mahasiswa");
-                }
-                while ($data = mysqli_fetch_array($query)){
+   
     foreach ($dbh->query($sql) as $data) :
     ?>
         <tr>
